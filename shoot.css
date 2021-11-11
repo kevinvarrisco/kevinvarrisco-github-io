@@ -6,7 +6,7 @@ body{
 
 .background1 img{
     width: 100%;
-    height: 100vh;
+    height: 660px;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -19,7 +19,7 @@ body{
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 100vh;
+    height: 660px;
     background-color: black;
     opacity: 85%;
     z-index: -1;
@@ -54,14 +54,18 @@ body{
 
 .menuhidden{
     position: absolute;
-    top: 30px;
+    top: 25px;
     right: 40px;
     visibility: hidden;
 }
 
 .menuhidden img{
-    width: 25px;
+    width: 20px;
     height: auto;
+}
+
+.menuhidden img:hover{
+    cursor: pointer;
 }
 
 .container{
@@ -119,15 +123,15 @@ body{
 
 .keunggulan1{
     width: 100%;
-    height: 100vh;
+    height: 660px;
     position: absolute;
-    top: 100vh;
+    top: 660px;
     left: 0;
 }
 
 .keunggulan1 .background2{
     width: 100%;
-    height: 100vh;
+    height: 660px;
     background-color: rgb(255, 81, 0);
     position: absolute;
     z-index: -2;
@@ -138,20 +142,26 @@ body{
     display: block;
     margin: auto;
     position: absolute;
-    top: 10vh;
+    top: 66px;
 }
 
 .alasan h1{
     text-align: center;
     font-size: 40px;
     color: white;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     margin-top: 20px;
 }
 
 .alasan1{
     width: 1300px;
     margin: auto;
+}
+
+.alasan2{
+    display: inline-block;
+    margin: 0px 20px;
+    width: 30%;
 }
 
 .alasan2 img{
@@ -168,10 +178,22 @@ body{
     margin: 50px 0px;
 }
 
-.alasan2{
-    display: inline-block;
-    margin: 0px 20px;
-    width: 30%;
+
+
+.keunggulan2{
+    width: 100%;
+    height: 660px;
+    position: absolute;
+    top: 1320px;
+    left: 0;
+}
+
+.keunggulan2 .background3{
+    width: 100%;
+    height: 660px;
+    background-color: rgb(30, 30,30);
+    position: absolute;
+    z-index: -2;
 }
 
 
@@ -185,8 +207,17 @@ body{
 
 
 
-/*
+
 @media only screen and (max-width: 1300px) {
+    .background1 img{
+        width: 1300px;
+    }
+    .background1 .overlay{
+        width: 1300px;
+    }
+    .alasan{
+        margin-top: 40px;
+    }
     .alasan h1{
         font-size: 32px;
     }
@@ -203,11 +234,20 @@ body{
   }
 
   @media only screen and (max-width: 1000px){
+    .background1 img{
+        width: 1000px;
+    }
+    .background1 .overlay{
+        width: 1000px;
+    }
     .header ul li{
         margin: 10px 0px 0px 30px; 
     }
     .header ul li a{
         font-size: 14px;  
+    }
+    .alasan{
+        margin-top: 60px;
     }
     .alasan h1{
         font-size: 28px;
@@ -239,26 +279,26 @@ body{
         width: 200px;
         height: 400px;
     }
-  }*/
+  }
 
-  @media only screen and (max-width: 1000px){
+  @media only screen and (max-width: 768px){
     .header ul li{
         visibility: hidden;
     }
+    .menuhidden{
+        visibility: visible;
+    }
     .background1 img{
-        width: 100%;
+        width: 1000px;
         height: 1100px;
     }
     .background1 .overlay{
-        width: 100%;
+        width: 1000px;
         height: 1100px;
     }
     .logo{
         margin-left: 40px;
         width: 150px;
-    }
-    .menuhidden{
-        visibility: visible;
     }
     .container{
         width: 400px;
@@ -320,6 +360,12 @@ body{
     .alasan2 h2{
         font-size: 24px;
         margin-bottom: 100px;
+    }
+    .keunggulan2 {
+        top: 2900px;
+    }
+    .keunggulan2 .background3{
+        height: 1800px;
     }
     
     
