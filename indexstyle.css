@@ -1,0 +1,706 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'nunito';
+}
+
+.background1 .gambarlatar{
+    width: 100%;
+    height: 660px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    filter: blur(5px);    
+    background-image: url(gambar\ futsal\ 2.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.background1 .overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 660px;
+    background-color: black;
+    opacity: 85%;
+    z-index: -1;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+    margin: 15px 0px 0px 80px;
+}
+
+.header ul{
+    float: right;
+    margin-right: 80px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin: 10px 0px 0px 40px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.header ul li a:hover{
+    text-decoration: underline;
+}
+
+.menuhidden{
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    visibility: hidden;
+}
+
+.menuhidden img{
+    width: 20px;
+    height: auto;
+}
+
+.menuhidden img:hover{
+    cursor: pointer;
+}
+
+.container{
+    margin: auto;
+    width: 750px;
+}
+
+.text{
+    width: 500px;
+    float: left; 
+    margin-top: 35px;  
+}
+
+.text h1{
+    color:white;
+    font-size: 52px;
+    font-weight: bold;
+    font-family:'nunito';
+}
+
+.text h2{
+    color: white;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: 'nunito';
+}
+
+.text h3{
+    color: white;
+    background-color: rgb(255, 81, 0);
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.text h3:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+.iphone{
+    float: right;
+    width: 225px;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+
+
+
+.keunggulan1{
+    width: 100%;
+    height: 660px;
+    position: absolute;
+    top: 660px;
+    left: 0;
+}
+
+.keunggulan1 .background2{
+    width: 100%;
+    height: 660px;
+    background-color: rgb(255, 81, 0);
+    position: absolute;
+    z-index: -2;
+}
+
+.alasan{
+    width: 100%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 66px;
+}
+
+.alasan h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.alasan1{
+    width: 1300px;
+    margin: auto;
+}
+
+.alasan2{
+    display: inline-block;
+    margin: 0px 20px;
+    width: 30%;
+}
+
+.alasan2 img{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.alasan2 h2{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+
+.keunggulan2{
+    width: 100%;
+    height: 660px;
+    position: absolute;
+    top: 1320px;
+    left: 0;
+}
+
+.keunggulan2 .background3{
+    width: 100%;
+    height: 660px;
+    background-color: rgb(30, 30,30);
+    position: absolute;
+    z-index: -2;
+}
+
+
+.banner{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 1980px;
+    left: 0px;
+    z-index: -4;
+}
+
+.banner .background4{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+}
+
+.background4 .gambarlatar2{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;   
+    background-image: url(gambar\ futsal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
+
+.background4 .overlay2{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    opacity: 85%;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+}
+
+.banner .container2{
+    width: 750px;
+    height: 500px;
+    margin: auto;
+}
+
+.container2 .iphone2{
+    width: 200px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: white;
+    float: left;
+    margin: 50px 0px;
+}
+
+.container2 .textbanner{
+    width: 450px;
+    margin: 50px 0px;
+    float: right;
+    margin-top: 60px;
+}
+
+.textbanner h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.textbanner h2{
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+    margin-top: 30px;
+}
+
+.textbanner h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 50px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.textbanner h3:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+
+
+.footer{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 2480px;
+    left: 0;
+    z-index: -2;
+    background-color: rgb(5, 5,5);
+}
+
+.footer .container3{
+    width: 970px;
+    height: 300px;
+    margin: auto;
+}
+
+.container3 h1{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.bantuan{
+    float: left;
+    width: 200px;
+    margin: 20px 25px;
+}
+
+.perusahaan{
+    float: left;
+    width: 200px;
+    margin: 20px 25px;
+}
+
+.bantuan a, .perusahaan a{
+    color: rgb(194, 194, 194);
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.contact{
+    float: left;
+    width: 200px;
+    margin: 20px 25px;
+}
+
+.download{
+    float: left;
+    width: 170px;
+    margin: 20px 25px;
+}
+
+.contact a i{
+    width: 70px;
+    font-size: 30px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(194, 194, 194);
+}
+
+.download a i{
+    width: 80px;
+    font-size: 30px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(194, 194, 194);
+}
+
+.container3 a:hover{
+    color: rgb(161, 161, 161);
+}
+
+.container3 a i:hover{
+    color: rgb(122, 122, 122);
+}
+
+.copy{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+}
+
+.copy h1{
+    text-align: center;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(194, 194, 194);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1300px) {
+    .alasan{
+        margin-top: 40px;
+    }
+    .alasan h1{
+        font-size: 32px;
+    }
+    .alasan1{
+        width: 1000px;
+    }
+    .alasan2{
+        width: 300px;
+        margin: 0px 15px;
+    }
+    .alasan2 h2{
+        font-size: 20px;
+    }
+    .footer .container3{
+        width: 890px;
+    }
+    .bantuan, .perusahaan, .contact, .download{
+        margin: 20px 15px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px){
+    .header ul li{
+        margin: 15px 0px 0px 15px; 
+    }
+    .header ul li a{
+        font-size: 14px;  
+    }
+    .alasan{
+        margin-top: 60px;
+    }
+    .alasan h1{
+        font-size: 28px;
+    }
+    .alasan1{
+        width: 750px;
+    }
+    .alasan2{
+        width: 200px;
+        margin: 0px 20px;
+    }
+    .container{
+        width: 600px;
+        margin-top: 30px;
+    }
+    .text{
+        width: 350px;
+        margin-top: 25px;
+    }
+    .text h1{
+        font-size: 42px;
+    }
+    .text h2{
+        font-size: 24px;
+    }
+    .text h3{
+        font-size: 20px;
+    }
+    .iphone{
+        width: 200px;
+        height: 400px;
+    }
+    .banner .container2{
+        width: 600px;
+        height: 500px;
+        margin: auto;
+    }    
+    .container2 .textbanner{
+        width: 330px;
+        margin-top: 60px;
+    }
+    .textbanner h1{
+        font-size: 32px;
+    }
+    .textbanner h2{
+        font-size: 20px;
+    }
+    .footer{
+        height: 425px;
+    }
+    .footer .container3{
+        width: 600px;
+        margin-top: 10px;
+    }
+    .bantuan, .contact{
+        width: 300px;
+        height: 180px;
+        margin: 20px 0px -20px 30px;
+    }
+    .perusahaan, .download{
+        width: 180px;
+        height: 180px;
+        margin: 20px 0px -20px 0px;
+        float: right;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .header ul li{
+        visibility: hidden;
+        position: absolute;
+    }
+    .menuhidden{
+        visibility: visible;
+    }
+    .background1 .gambarlatar{
+        height: 1000px;
+        filter: blur(3px);
+    }
+    .background1 .overlay{
+        height: 1000px;
+    }
+    .logo{
+        margin-left: 40px;
+        width: 150px;
+    }
+    .container{
+        width: 300px;
+    }
+    .text{
+        width: 300px;
+        float: none;
+        margin: auto;
+        margin-top: -10px;
+    }
+    .text h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    .text h2{
+        font-size: 22px;
+        text-align: center;
+    }
+    .text h3{
+        font-size: 18px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .iphone{
+        width: 225px;
+        height: 450px;
+        margin: auto;
+        display: block;
+        float: none;
+        margin-top: 80px;
+    }
+    .keunggulan1 {
+        top: 1000px;
+    }
+    .keunggulan1 .background2{
+        height: 1500px;
+    }
+    .alasan{
+        top: 40px;
+    }
+    .alasan h1{
+        font-size: 24px;
+        margin-bottom: 0px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .alasan1{
+        width: 250px;
+        margin-top: 0px;
+    }
+    .alasan2{
+        display: block;
+        margin: auto;
+        width: 250px;
+    }
+    .alasan img{
+        width: 180px;
+        margin-top: 140px;
+    }
+    .alasan2 h2{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .keunggulan2 {
+        top: 2500px;
+    }
+    .keunggulan2 .background3{
+        height: 1500px;
+    }
+    .banner{
+        height: 500px;
+        top: 4000px;
+    }
+    .banner .background4{
+        height: 500px;
+    }    
+    .background4 .gambarlatar2{
+        width: 100%;
+        height: 500px;
+        position: absolute;
+    }    
+    .background4 .overlay2{
+        height: 500px;
+    }
+    .banner .container2{
+        width: 350px;
+        height: 300px;
+        margin-top: 60px;
+    }    
+    .container2 .iphone2{
+        position: absolute;
+        visibility: hidden;
+        top: -500px;
+    }    
+    .container2 .textbanner{
+        width: 350px;
+        float: none;
+    }    
+    .textbanner h1{
+        text-align: center;
+        font-size: 32px;
+    }    
+    .textbanner h2{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 22px;
+    }    
+    .textbanner h3{
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        font-size: 18px;
+    }
+    .footer{
+        height: 950px;
+        top: 4500px;
+    }
+    
+    .footer .container3{
+        width: 100px;
+        height: 850px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .container3 h1{
+        font-size: 16px;
+    }
+    
+    .bantuan{
+        margin: 0px;
+        float: none;
+    }
+    
+    .perusahaan{
+        margin: 0px;
+        float: none;
+    }
+    
+    .contact{
+        margin: 0px;
+        float: none;
+        width: 150px;
+        margin-bottom: 80px;
+        margin-top: -30px;
+    }
+    
+    .download{
+        margin: 0px;
+        float: none;
+    }
+  }
+
+  @media only screen and (max-width: 568px){
+    .text{
+        width: 250px;
+        margin-top: 40px;
+    }
+    .text h1{
+        font-size: 32px;
+    }
+    .text h2{
+        font-size: 18px;
+    }
+    .text h3{
+        font-size: 16px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
