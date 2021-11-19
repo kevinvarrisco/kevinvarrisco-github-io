@@ -4,6 +4,59 @@ body{
     font-family: 'nunito';
 }
 
+.wadah{
+    width: 60%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;;
+}
+
+.wadahmenu{
+    width: 100px;
+    height: 100vh;
+    margin: auto;
+    margin-top: 35vh;
+    display: none;
+}
+
+.wadahmenu a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.wadahmenu a:hover{
+    text-decoration: underline;
+}
+
+.menuhidden2{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    display: none;
+    z-index: 200;
+}
+
+.menuhidden2 img{
+    width: 20px;
+    height: auto;
+}
+
+.menuhidden2 img:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+
+.landingpage{
+    position: absolute;
+    width: 100%;
+}
+
 .background1 .gambarlatar{
     width: 100%;
     height: 660px;
@@ -12,7 +65,7 @@ body{
     left: 0px;
     z-index: -2;
     filter: blur(5px);    
-    background-image: url(gambar\ futsal\ 2.jpg);
+    background-image: url(img/gambar\ futsal\ 2.jpg);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -29,6 +82,21 @@ body{
     z-index: -1;
 }
 
+.header{
+    position: absolute;
+    width: 100%;
+    transition:  0.3s;
+}
+
+.sticky{
+    width: 100%;
+    height: 85px;
+    position: fixed;
+    background-color: rgb(20, 20, 20);
+    opacity: 93%;
+    z-index: 999;
+}
+
 .logo{
     width: 200px;
     height: auto;
@@ -42,7 +110,7 @@ body{
 
 .header ul li{
     display: inline-block;
-    margin: 10px 0px 0px 40px;
+    margin: 15px 0px 0px 40px;
 }
 
 .header ul li a{
@@ -59,8 +127,9 @@ body{
 .menuhidden{
     position: absolute;
     top: 25px;
-    right: 40px;
+    right: 30px;
     visibility: hidden;
+    z-index: 200;
 }
 
 .menuhidden img{
@@ -70,11 +139,13 @@ body{
 
 .menuhidden img:hover{
     cursor: pointer;
+    opacity: 85%;
 }
 
 .container{
     margin: auto;
     width: 750px;
+    margin-top: 80px;
 }
 
 .text{
@@ -130,7 +201,6 @@ body{
     height: 660px;
     position: absolute;
     top: 660px;
-    left: 0;
 }
 
 .keunggulan1 .background2{
@@ -188,13 +258,12 @@ body{
     height: 660px;
     position: absolute;
     top: 1320px;
-    left: 0;
 }
 
 .keunggulan2 .background3{
     width: 100%;
     height: 660px;
-    background-color: rgb(30, 30,30);
+    background-color: rgb(36, 36, 36);
     position: absolute;
     z-index: -2;
 }
@@ -205,7 +274,6 @@ body{
     height: 500px;
     position: absolute;
     top: 1980px;
-    left: 0px;
     z-index: -4;
 }
 
@@ -224,7 +292,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;   
-    background-image: url(gambar\ futsal.jpg);
+    background-image: url(img/gambar\ futsal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -300,7 +368,6 @@ body{
     height: 300px;
     position: absolute;
     top: 2480px;
-    left: 0;
     z-index: -2;
     background-color: rgb(5, 5,5);
 }
@@ -426,9 +493,9 @@ body{
     }
   }
 
-  @media only screen and (max-width: 1000px){
+  @media only screen and (max-width: 1020px){
     .header ul li{
-        margin: 15px 0px 0px 15px; 
+        margin: 15px 0px 0px 20px; 
     }
     .header ul li a{
         font-size: 14px;  
@@ -448,7 +515,7 @@ body{
     }
     .container{
         width: 600px;
-        margin-top: 30px;
+        margin-top: 105px;
     }
     .text{
         width: 350px;
@@ -471,6 +538,9 @@ body{
         width: 600px;
         height: 500px;
         margin: auto;
+    }
+    .background4 .overlay2{
+        opacity: 80%;
     }    
     .container2 .textbanner{
         width: 330px;
@@ -502,7 +572,7 @@ body{
     }
   }
 
-  @media only screen and (max-width: 768px){
+  @media only screen and (max-width: 765px){
     .header ul li{
         visibility: hidden;
         position: absolute;
@@ -510,19 +580,43 @@ body{
     .menuhidden{
         visibility: visible;
     }
+    .menuhidden2{
+        display: block;
+        visibility: hidden;
+    }
+    .menubox{
+        width: 60%;
+        height: 100vh;
+        background-color: rgb(255, 81, 0);
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 200;
+        transition: 1s;
+    }    
+    .geser{
+        transform: translateX(-59%);
+        transition: 1s;
+    }
     .background1 .gambarlatar{
         height: 1000px;
-        filter: blur(3px);
+        filter: blur(0px);
     }
     .background1 .overlay{
         height: 1000px;
+        opacity: 80%;
+    }
+    .sticky{
+        height: 70px;
+        opacity: 87%;
     }
     .logo{
-        margin-left: 40px;
+        margin-left: 25px;
         width: 150px;
     }
     .container{
         width: 300px;
+        margin-top: 95px;
     }
     .text{
         width: 300px;
@@ -604,6 +698,7 @@ body{
     }    
     .background4 .overlay2{
         height: 500px;
+        opacity: 75%;
     }
     .banner .container2{
         width: 350px;
@@ -653,6 +748,7 @@ body{
     .bantuan{
         margin: 0px;
         float: none;
+        width: 150px;
     }
     
     .perusahaan{
@@ -674,7 +770,16 @@ body{
     }
   }
 
-  @media only screen and (max-width: 568px){
+  @media only screen and (max-width: 575px){
+    .logo{
+        margin-left: 15px;
+    }
+    .menuhidden{
+        right: 20px;
+    }
+    .container{
+        margin-top: 100px;
+    }
     .text{
         width: 250px;
         margin-top: 40px;
@@ -687,6 +792,22 @@ body{
     }
     .text h3{
         font-size: 16px;
+    }
+    .banner .container2{
+        width: 250px;
+    }
+    .container2 .textbanner{
+        width: 250px;
+    }
+    .textbanner h1{
+        font-size: 28px;
+    }
+    .textbanner h2{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .textbanner h3{
+        font-size: 18px;
     }
   }
 
