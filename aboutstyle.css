@@ -1,0 +1,626 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'nunito';
+}
+
+
+.wadah{
+    width: 60%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;;
+}
+
+.wadahmenu{
+    width: 100px;
+    height: 100vh;
+    margin: auto;
+    margin-top: 35vh;
+    display: none;
+}
+
+.wadahmenu a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.wadahmenu a:hover{
+    text-decoration: underline;
+}
+
+.menuhidden2{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    display: none;
+    z-index: 200;
+}
+
+.menuhidden2 img{
+    width: 20px;
+    height: auto;
+}
+
+.menuhidden2 img:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.menuhidden{
+    position: absolute;
+    top: 25px;
+    right: 10%;
+    visibility: hidden;
+    z-index: 200;
+}
+
+.menuhidden img{
+    width: 20px;
+    height: auto;
+}
+
+.menuhidden img:hover{
+    cursor: pointer;
+    opacity: 85%;
+}
+
+.sticky{
+    width: 100%;
+    height: 85px;
+    position: fixed;
+    background-color: rgb(20, 20, 20);
+    opacity: 93%;
+    z-index: 999;
+}
+
+
+
+
+
+
+.header{
+    position: absolute;
+    width: 100%;
+    transition:  0.3s;
+}
+
+.logo{
+    width: 170px;
+    height: auto;
+    margin: 20px 0px 0px 80px;
+}
+
+.header ul{
+    float: right;
+    margin-right: 80px;
+    margin-top: 15px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin: 15px 0px 0px 40px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.header ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.background{
+    width: 100%;
+    height: 450px;
+    background-image: url(img/gambar\ futsal\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -999;
+}
+
+.background .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 80%;
+}
+
+.container{
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.container h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 0px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.container h2{
+    font-size: 30px;
+    color: white;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+
+.background2{
+    width: 100%;
+    height: 1600px;
+    position: relative;
+    background-color: rgb(10, 10, 10);
+}
+
+.container2{
+    width: 90%;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container2 .left{
+    position: absolute;
+    left: 0;
+    width: 45%;
+}
+
+.left h1{
+    color: white;
+}
+
+.left p{
+    color: white;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.container2 .right{
+    position: absolute;
+    right: 0;
+    width: 45%;
+}
+
+.right h1{
+    color: white;
+}
+
+.right p{
+    color: white;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.container3{
+    position: relative;
+    top: 700px;
+}
+
+.container3 h1{
+    text-align: center;
+    color: white;
+}
+
+.container3 p{
+    text-align: center;
+    color: white;
+    width: 700px;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.container4{
+    width: 90%;
+    position: relative;
+    top: 875px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container4 h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container4 .misi1{
+    width: 45%;
+    position: absolute;
+    left: 0;
+}
+
+.misi1 img{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.misi1 p{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.container4 .misi2{
+    width: 45%;
+    position: absolute;
+    right: 0;
+}
+
+.misi2 img{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.misi2 p{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+
+
+.footer{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer .container5{
+    width: 970px;
+    height: 300px;
+    margin: auto;
+}
+
+.container5 h1{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.bantuan{
+    float: left;
+    width: 200px;
+    margin: 20px 25px;
+}
+
+.perusahaan{
+    float: left;
+    width: 200px;
+    margin: 20px 25px;
+}
+
+.bantuan a, .perusahaan a{
+    color: rgb(194, 194, 194);
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.contact{
+    float: left;
+    width: 200px;
+    margin: 20px 25px;
+}
+
+.download{
+    float: left;
+    width: 170px;
+    margin: 20px 25px;
+}
+
+.contact a i{
+    width: 70px;
+    font-size: 30px;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(194, 194, 194);
+}
+
+.download a i{
+    font-size: 30px;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    color: rgb(194, 194, 194);
+}
+
+.container5 a:hover{
+    color: rgb(161, 161, 161);
+}
+
+.container5 a i:hover{
+    color: rgb(122, 122, 122);
+}
+
+.copy{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+}
+
+.copy h1{
+    text-align: center;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(194, 194, 194);
+}
+
+
+@media only screen and (max-width: 1300px){
+    .container2{
+        width: 85%;
+    }
+    .container3{
+        top: 780px;
+    }
+    .container4{
+        top: 900px;
+    }
+    .footer .container5{
+        width: 890px;
+    }
+    .bantuan, .perusahaan, .contact, .download{
+        margin: 20px 15px;
+    }    
+}
+@media only screen and (max-width: 1020px){
+    .container h1{
+        font-size: 52px;
+    }
+    .container h2{
+        font-size: 28px;
+    }
+    .header ul li{
+        margin: 15px 0px 0px 20px; 
+    }
+    .header ul li a{
+        font-size: 14px;  
+    }
+    .background2{
+        height: 2000px;
+    }
+    .container2 .left{
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .container2 .right{
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 450px;
+    }
+    .container3{
+        top: 1100px;
+    }
+    .container3 p{
+        width: 70%;
+        font-size: 18px;
+    }
+    .container4{
+        top: 1280px;
+    }
+    .misi1 img{
+        height: 125px;
+    }
+    .misi1 p{
+        font-size: 18px;
+    }
+    .misi2 img{
+        height: 125px;
+    }
+    .misi2 p{
+        font-size: 18px;
+    }
+    .footer{
+        height: 425px;
+    }
+    .footer .container5{
+        width: 600px;
+    }
+    .bantuan, .contact{
+        width: 300px;
+        height: 180px;
+        margin: 20px 0px -20px 30px;
+    }
+    .perusahaan, .download{
+        width: 180px;
+        height: 180px;
+        margin: 20px 0px -20px 0px;
+        float: right;
+    }
+
+}
+@media only screen and (max-width: 765px){
+    .header ul li{
+        visibility: hidden;
+        position: absolute;
+    }
+    .menuhidden{
+        visibility: visible;
+    }
+    .menuhidden2{
+        display: block;
+        visibility: hidden;
+    }
+    .menubox{
+        width: 60%;
+        height: 100vh;
+        background-color: rgb(255, 81, 0);
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 200;
+        transition: 1s;
+    }    
+    .geser{
+        transform: translateX(-59%);
+        transition: 1s;
+    }
+
+
+    .background{
+        height: 375px;
+    }
+    .logo{
+        margin-left: 10%;
+        width: 135px;
+    }
+    .container{
+        width: 85%;
+    }
+    .container h1{
+        font-size: 45px;
+    }
+    .background2{
+        height: 2500px;
+    }
+    .container h2{
+        font-size: 24px;
+    }
+    .container3{
+        top: 1200px;
+    }
+    .container3 p{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .container4{
+        top: 1350px;
+    }
+    .container4 .misi1{
+        width: 100%;
+    }
+    .misi1 p{
+        font-size: 16px;
+    }
+    .container4 .misi2{
+        width: 100%;
+        top: 500px;
+    }
+    .misi2 p{
+        font-size: 16px;
+    } 
+    .footer{
+        height: 950px;
+        border: 1px solid rgb(0, 0, 0);
+        box-sizing: border-box;
+    }
+    
+    .footer .container5{
+        width: 100px;
+        height: 850px;
+        margin-top: 50px;
+    }
+    
+    .container5 h1{
+        font-size: 16px;
+    }
+    
+    .bantuan{
+        margin: 0px;
+        float: none;
+        width: 150px;
+    }
+    
+    .perusahaan{
+        margin: 0px;
+        float: none;
+    }
+    
+    .contact{
+        margin: 0px;
+        float: none;
+        width: 150px;
+        margin-bottom: 80px;
+        margin-top: -30px;
+    }
+    
+    .download{
+        margin: 0px;
+        float: none;
+    }
+
+    .download a i{
+        margin-left: 40px;
+    }
+
+}
+@media only screen and (max-width: 575px){
+    .header{
+        z-index: 999;
+    }
+    .background{
+        height: 80px;
+        background-image: none;
+        background-color: rgb(10, 10, 10);
+    }
+    .background .overlay{
+        display: none;
+    }
+    .container{
+        display: none;
+    }
+    .background2{
+        height: 3000px;
+    }
+    .container2 .right{
+        top: 700px;
+    }
+    .left h1{
+        font-size: 24px;
+    }
+    .right h1{
+        font-size: 24px;
+    }
+    .container3{
+        top: 1800px;
+    }
+    .container3 h1{
+        font-size: 24px;
+    }
+    .container4{
+        top: 1900px;
+    }
+    .container4 h1{
+        font-size: 24px;
+    }
+    .logo{
+        margin-left: 10%;
+    }
+
+}
