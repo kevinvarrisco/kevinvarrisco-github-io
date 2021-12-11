@@ -74,15 +74,6 @@ body{
     opacity: 85%;
 }
 
-.sticky{
-    width: 100%;
-    height: 85px;
-    position: fixed;
-    background-color: rgb(20, 20, 20);
-    opacity: 93%;
-    z-index: 999;
-}
-
 
 
 
@@ -95,7 +86,7 @@ body{
 }
 
 .logo{
-    width: 170px;
+    width: 175px;
     height: auto;
     margin: 20px 0px 0px 80px;
 }
